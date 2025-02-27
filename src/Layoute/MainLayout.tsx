@@ -1,12 +1,12 @@
-
+import '../App.css'
 import { Outlet } from 'react-router';
 import Nav from '../components/Nav/Nav';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='mx-4'>
             <Nav></Nav>
-            <Outlet/>
+            <Outlet />
         </div>
     );
 };

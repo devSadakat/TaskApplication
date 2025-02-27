@@ -9,8 +9,8 @@ const router = createBrowserRouter([
         path: "/",
         element: <MainLayout />,
         children: [
-            { index: true, element: <Home /> }, // renders home on the / route
-            { path: "about", element: <About /> }, // renders about on the /about route
+            { index: true, element: <Home /> },
+            { path: "about", element: <About /> },
         ],
     },
 ]);
